@@ -1,0 +1,64 @@
+{
+  "name": "Voyage Overhaul",
+  "author": "Aidanamite",
+  "description": "A new design for the propulsion systems",
+  "version": "2.0.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/voyage-overhaul/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "checkbox",
+      "text": "Additive Motor Speed",
+      "name": "motorAdditive",
+      "default": false
+    },
+    {
+      "type": "input",
+      "text": "Motor Torque Multiplier",
+      "name": "motorTorqueMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Motor Speed Multiplier",
+      "name": "motorSpeedMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Sail Torque Multiplier",
+      "name": "sailTorqueMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Sail Speed Multiplier",
+      "name": "sailSpeedMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Block Torque Multiplier",
+      "name": "blockTorqueMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    },
+    {
+      "type": "input",
+      "text": "Water/Wind Flow Speed Multiplier",
+      "name": "waterSpeedMultiplier",
+      "mode": "DecimalNumber",
+      "default": "1"
+    }
+  ]
+}
